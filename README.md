@@ -74,13 +74,10 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 <hr>
 <h3>PROGRAM :</h3>
 <hr>
-
+```
 
 from collections import deque<BR>
 from collections import defaultdict<BR>
-
-
-'''
 V E<BR>
 FOR EVERY EDGE<BR>
 U V<BR>
@@ -121,11 +118,11 @@ path = []<BR>
 visited = defaultdict(bool)<BR>
 traversedpath = bfs(graph,start,visited,path)<BR>
 print(traversedpath)<BR>
-
+```
 
 
 <hr>
-<h3>Sample Input</h3>
+<h3>Sample Input :</h3>
 <hr>
 7 9 <BR>
 A B <BR>
@@ -138,14 +135,14 @@ D E <BR>
 D G <BR>
 G F <BR>
 <hr>
-<h3>Sample Output</h3>
+<h3>Sample Output :</h3>
 <hr>
 ['A', 'B', 'C', 'F', 'E', 'D', 'G']
 
 <hr>
 
 <hr>
-<h3>Sample Input</h3>
+<h3>Sample Input :</h3>
 <hr>
 5 6 <BR>
 0 1 <BR>
@@ -155,7 +152,7 @@ G F <BR>
 2 4 <BR>
 3 4 <BR>
 <hr>
-<h3>Sample Output</h3>
+<h3>Sample Output :</h3>
 <hr>
 ['0', '1', '2', '3', '4']
 <hr>
